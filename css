@@ -1,0 +1,59 @@
+
+/* -- Joel Erulu lab 3 */
+
+
+table {
+	margin: auto;
+	width: 600px;
+	border: 5px solid #003300;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 0.5em;
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;
+
+}
+
+tr:first-of-type, tr:last-of-type{
+	background-color:#003300;
+	color: #eaeaea;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.semester {
+	background-color:#009900;
+	color: white;
+	text-align:center;
+	font-weight: bold;
+}
+h1, h3{
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avg {
+	  font-weight: bold;
+	  text-align: center;
+}
+
+
+tr:nth-of-type(3) ,tr:nth-of-type(5), tr:nth-of-type(8), tr:nth-of-type(10){ 
+	background-color: #eaeaea; 
+}
+
+.grade {
+	font-weight: bold;
+}
+.courseid {
+	font-weight: bold;
+	
+}
